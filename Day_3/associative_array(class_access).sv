@@ -23,3 +23,8 @@ module assoc_arr;
  
  end
  endmodule
+
+# 20
+# 10
+# 1
+# 1010
