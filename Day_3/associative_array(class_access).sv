@@ -19,7 +19,6 @@ module assoc_arr;
  arr[obj3] = 1'b1;
  arr[obj4] = 8'd10;
   $display("%0d",arr[obj3]);
- 
   $display("%0b",arr[obj4]);
  
  end
