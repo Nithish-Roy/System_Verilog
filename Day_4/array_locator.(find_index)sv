@@ -1,0 +1,15 @@
+module array();
+	string assoc [string];
+	string queue [$];
+	initial begin 
+	assoc = '{"kural":"amudhan","jana":"rthanan","sri":"niketh","Nithish":"roy","Valan":"Raj"};
+	
+	queue = assoc.find_index(x) with (x == "amudhan");
+	$display("amudhan found = %p ", queue);
+	
+	end
+
+endmodule
+
+
+//# amudhan found = '{"kural"} 
